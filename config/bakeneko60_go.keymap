@@ -40,16 +40,16 @@
 
             bindings = <
 &kp GRAVE  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp DEL  &kp DEL
-&reset     &trans    &kp UP    &trans     &reset  &reset  &reset  &reset  &trans  &reset  &trans   &trans   &trans            &trans
-&reset     &kp LEFT  &kp DOWN  &kp RIGHT  &reset  &reset  &reset  &reset  &reset  &reset  &reset   &trans                     &bootloader
+&trans     &trans    &kp UP    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans            &trans
+&trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans                     &trans
 &trans               &reset    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans            &trans
-&trans     &trans              &trans                     &reset                          &reset   &trans   &trans            &reset
+&trans     &trans              &trans                     &mo 2                           &trans   &trans   &trans            &trans
             >;
         };
 
         dead_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp A   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans
 &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
